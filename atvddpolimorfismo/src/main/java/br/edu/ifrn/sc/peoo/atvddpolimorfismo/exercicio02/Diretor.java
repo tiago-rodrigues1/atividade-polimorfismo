@@ -13,7 +13,7 @@ public class Diretor extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return super.salarioBase * 5;
+        return super.getSalario() * 5;
     }
 
 }

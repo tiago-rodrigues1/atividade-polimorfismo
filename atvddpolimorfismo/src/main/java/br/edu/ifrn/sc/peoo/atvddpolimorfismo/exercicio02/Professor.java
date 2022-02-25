@@ -13,7 +13,7 @@ public class Professor extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return super.salarioBase * 3;
+        return super.getSalario() * 3;
     }
 
 }

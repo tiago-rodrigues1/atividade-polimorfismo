@@ -10,11 +10,12 @@ public abstract class Funcionario {
     protected String cpf;
     protected double salario;
 
-    protected final double salarioBase = 2000.00;
-
     public abstract double calcularSalario();
 
     public Funcionario() {
+        double salarioBase = 2000.00;
+        this.salario = salarioBase;
+        
         System.out.println(this.getClass().toString());
     }
 

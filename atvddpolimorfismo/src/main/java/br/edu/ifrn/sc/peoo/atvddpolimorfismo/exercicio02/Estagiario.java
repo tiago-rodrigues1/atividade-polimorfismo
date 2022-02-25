@@ -13,7 +13,7 @@ public class Estagiario extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return super.salarioBase;
+        return super.getSalario();
     }
 
 }
