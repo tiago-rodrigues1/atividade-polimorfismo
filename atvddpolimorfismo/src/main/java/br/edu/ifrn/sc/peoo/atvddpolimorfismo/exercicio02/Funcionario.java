@@ -1,14 +1,19 @@
+/*
+ * Gabrielly Beatriz Brandão Nogueira
+ * Tiago Rodrigues dos Santos 
+ */
+
 package br.edu.ifrn.sc.peoo.atvddpolimorfismo.exercicio02;
 
 public abstract class Funcionario {
     protected String nome;
     protected String cpf;
     protected double salario;
-    
+
     protected final double salarioBase = 2000.00;
-    
+
     public abstract double calcularSalario();
-    
+
     public Funcionario() {
         System.out.println(this.getClass().toString());
     }

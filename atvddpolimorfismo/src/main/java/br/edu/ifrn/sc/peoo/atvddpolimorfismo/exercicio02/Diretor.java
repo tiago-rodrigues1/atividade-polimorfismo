@@ -1,3 +1,8 @@
+/*
+ * Gabrielly Beatriz Brandão Nogueira
+ * Tiago Rodrigues dos Santos 
+ */
+
 package br.edu.ifrn.sc.peoo.atvddpolimorfismo.exercicio02;
 
 public class Diretor extends Funcionario {
@@ -10,5 +15,5 @@ public class Diretor extends Funcionario {
     public double calcularSalario() {
         return super.salarioBase * 5;
     }
-    
+
 }
